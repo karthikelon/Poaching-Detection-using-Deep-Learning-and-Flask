@@ -75,11 +75,11 @@ def upload_folder():
                 print(finalmessage)
                 outputinscreen = "Poaching is present and SMS REGARDING POACHING is sent to concerned authorities"
                 if(finalmessage == True):
-                    SID = "ACa00dee5fe5fafd3fee5297cc314faea5"
-                    auth_token = "253d943f906c0bde4672d243ffad9525"
+                    SID = ""
+                    auth_token = ""
 
-                    my_phone_number = '+14159171624'
-                    target_phone_number = '+919159287008'
+                    my_phone_number = ''
+                    target_phone_number = ''
 
                     cl = Client(SID, auth_token)
                     if(poacher):
